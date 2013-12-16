@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/boxen/nodenv/versions/v0.10.5/bin/node',
+1 verbose cli   '/opt/boxen/nodenv/versions/v0.10.5/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose read json /Users/admin/code/gamble/ghost-0.3.3/package.json
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart ghost@0.3.3
+7 info start ghost@0.3.3
+8 verbose unsafe-perm in lifecycle true
+9 silly exec sh "-c" "node index"
+10 silly sh,-c,node index,/Users/admin/code/gamble/ghost-0.3.3 spawning
+11 info ghost@0.3.3 Failed to exec start script
+12 error ghost@0.3.3 start: `node index`
+12 error `sh "-c" "node index"` failed with 8
+13 error Failed at the ghost@0.3.3 start script.
+13 error This is most likely a problem with the ghost package,
+13 error not with npm itself.
+13 error Tell the author that this fails on your system:
+13 error     node index
+13 error You can get their info via:
+13 error     npm owner ls ghost
+13 error There is likely additional logging output above.
+14 error System Darwin 13.0.0
+15 error command "/opt/boxen/nodenv/versions/v0.10.5/bin/node" "/opt/boxen/nodenv/versions/v0.10.5/bin/npm" "start"
+16 error cwd /Users/admin/code/gamble/ghost-0.3.3
+17 error node -v v0.10.5
+18 error npm -v 1.2.18
+19 error code ELIFECYCLE
+20 verbose exit [ 1, true ]
